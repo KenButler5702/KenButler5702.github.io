@@ -1,7 +1,7 @@
 let navigation = function(){
 
 let navigationArray = [
-  {title: 'Home', url: '"Home.html"'},
+  {title: 'Home', url: '"index.html"'},
   {title: 'Work Experience', url: '"Work Experience.html"'},
   {title: 'Contact', url: '"Contact.html"'},
   {title: 'Portfolio', url: '"Portfolio.html"'},
