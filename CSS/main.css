@@ -1,0 +1,182 @@
+/* main.css */
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('../fonts/Amble-Regular-webfont.eot');
+    src: url('../fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('../fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hamburgerheavenregular';
+    src: url('../fonts/HAMBH___-webfont.eot');
+    src: url('../fonts/HAMBH___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HAMBH___-webfont.woff') format('woff'),
+         url('../fonts/HAMBH___-webfont.ttf') format('truetype'),
+         url('../fonts/HAMBH___-webfont.svg#hamburgerheavenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../fonts/CaviarDreams-webfont.eot');
+    src: url('../fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('../fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body, h1, h2, h3, h4, p, div, ul, ol, li {
+  color: rgb(239, 241, 244);
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: 'ambleregular', "Helvetica Neu", Helvetica, sans-serif;
+	list-style-type: none;"
+}
+html {
+  background-color: rgb(33, 46, 66);
+}
+body {
+  padding-top: 35px;
+  padding-bottom: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+h1 {
+  background-color: rgb(55, 73, 102);
+  border-radius: 25px;
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 30px;
+  font-family: 'caviar_dreamsregular', "Helvetica Neu", Helvetica, sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+}
+h2 {
+  background-color: rgb(55, 73, 102);
+  border-radius: 25px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin: 20px;
+  font-family: 'caviar_dreamsregular', "Helvetica Neu", Helvetica, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  border-bottom: 1px solid white;
+
+}
+h3 {
+  font-size: 25px;
+  font-style: normal;
+  text-align: middle;
+  padding-bottom: 35px;
+}
+h4 {
+  font-family: 'caviar_dreamsregular', "Helvetica Neu", Helvetica, sans-serif;
+  font-size: 25px;
+  padding-top: 15px;
+}
+p {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.logo img {
+
+}
+.paragraphs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(55, 73, 102);
+  width: 1600px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+.paragraphs p {
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.paragraphs h2 {
+  padding-top: 35px;
+  background-color: rgb(59, 78, 109);
+}
+.paragraphs h4 {
+  font-size: 25px;
+}
+.BadgeList {
+
+}
+.BadgeList li {
+  display: inline;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+.BadgeList ul {
+  padding-bottom: 25px;
+}
+.BadgeList h2 {
+  font-size: 60px;
+  width: 1000px;
+  padding-top: 50px;
+}
+.BadgeList h3 {
+  font-size: 40px;
+  font-family: 'caviar_dreamsregular', Helvetica, sans-serif;
+}
+.BadgeList h4 {
+  text-align: center;
+  padding-bottom: 35px;
+  font-size: 25px;
+}
+.navigation {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(55, 73, 102);
+  border-radius: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 20px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+../fonts/}
+.navigation a {
+    font-family: hamburgerheavenregular, 'caviar_dreamsregular', "Helvetica Neu", Helvetica, sans-serif;;
+    background-color: rgb(33, 46, 66);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out 0.1s;
+    margin: 5px;
+}
+.navigation a:hover {
+    background-color: rgb(64, 88, 124);
+}
+.navigation a:active {
+    background-color: rgb(87, 112, 153);
+    transition: all 0s ease-in-out 0s;
+}
