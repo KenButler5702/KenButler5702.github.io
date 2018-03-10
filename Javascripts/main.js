@@ -5,7 +5,8 @@ let navigationArray = [
   {title: 'Work Experience', url: '"Work Experience.html"'},
   {title: 'Contact', url: '"Contact.html"'},
   {title: 'Portfolio', url: '"Portfolio.html"'},
-  {title: 'Skills', url: '"Skills.html"'}
+  {title: 'Skills', url: '"Skills.html"'},
+  {title: 'Color Game', url: '"colorGame.html"'}
 ]
 
 
